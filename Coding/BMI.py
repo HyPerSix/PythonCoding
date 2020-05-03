@@ -1,7 +1,7 @@
 def get_input():
-    ask_weight= float(input("Enter weight in kg : "))
-    ask_height= float(input("Enter height inmeters : "))
-    return ask_weight,ask_height
+    weight= float(input("Enter weight in kg : "))
+    height= float(input("Enter height inmeters : "))
+    return weight,height
 
 
 BMI = bmi()
@@ -14,3 +14,7 @@ elif 25.0<=BMI<30.0:
 elif BMI>=30.0:
     status = "Obese"
 print(f"BMI is {BMI}, weight status: {status}")
+
+'''
+Added example comment
+'''
